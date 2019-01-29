@@ -27,11 +27,11 @@ def get_response(url):
     print('------------------')
     print('status_code', s)
     print('------------------')
-    print(r.raise_for_status())
 
 google_url = 'https://www.google.com/search?newwindow=1&source=hp&ei=xxZLXNCCAuii_QaProAg&q=Tim+Berners-Lee&btnK=Google+Search&oq=Tim+Berners-Lee&gs_l=psy-ab.3..35i39j0l9.1184.1184..1393...1.0..0.121.201.1j1......0....2j1..gws-wiz.....6._QHWuI0aBs4'
 get_response(google_url)
-get_url = 'https://accounts.pixiv.net/login?lang=zh&source=pc&view_type=page&ref=wwwtop_accounts_index'
+get_url = 'https://itbilu.com'
 post_response(get_url)
 fake_url = 'https://www.pixiv.net/12132313/'
 get_response(fake_url)
+get_response(get_url)
